@@ -1,9 +1,23 @@
 .landing-container {
   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  background: linear-gradient(135deg, #0a3d2c 0%, #14532d 100%);
   min-height: 100vh;
   padding: 0;
   margin: 0;
+  background: linear-gradient(270deg, #D8F3DC, #B7E4C7, #95D5B2, #74C69D, #52B788, #40916C, #2D6A4F, #1B4332, #D8F3DC);
+  background-size: 200% 200%;
+  animation: animated-bg 12s ease-in-out infinite;
+}
+
+@keyframes animated-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .hero-row {

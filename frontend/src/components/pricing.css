@@ -1,0 +1,152 @@
+.pricing-container {
+  background: #fff;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.pricing-container h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #0a3d2c;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.price-top, .price-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+}
+
+.top-left, .bottom-right {
+  background: #b7e4c7;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(20, 83, 45, 0.13);
+  padding: 1.2rem 1rem 1rem 1rem;
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 200px;
+  height: 250px;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.top-right, .bottom-left {
+  background: #52b788;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(20, 83, 45, 0.13);
+  padding: 1.2rem 1rem 1rem 1rem;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 250px;
+  color: #fff;
+  justify-content: center;
+  overflow: hidden;
+  text-align: left;
+}
+
+.top-left h3, .bottom-right h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #0a3d2c;
+}
+
+.top-right h3, .bottom-left h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.top-left p, .bottom-right p {
+  font-size: 2rem;
+  color: #0a3d2c;
+  opacity: 50%;
+  margin-bottom: 0.2rem;
+}
+
+.top-left button, .bottom-right button {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 24px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(34, 197, 94, 0.13);
+  transition: background 0.2s, color 0.2s;
+  margin-top: 0.3rem;
+}
+
+.top-left button:hover, .bottom-right button:hover {
+  background: #166534;
+  color: #e6fffa;
+}
+
+@media (max-width: 900px) {
+  .price-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .price-top, .price-bottom {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .top-left, .top-right, .bottom-left, .bottom-right {
+    width: 90vw;
+    min-width: unset;
+    align-items: flex-start;
+  }
+  .pricing-container h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.pricing-features-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+.pricing-features-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.tick {
+  color: #135930;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-size: 1.2em;
+}
+
+p1 {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
