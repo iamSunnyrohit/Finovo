@@ -1,0 +1,126 @@
+.works-container {
+  background: #f8f9fa;
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  min-height: 80vh;
+}
+
+.works-left {
+  flex: 1;
+  max-width: 500px;
+  padding: 0 2rem;
+}
+
+.works-left h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0a3d2c;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.works-left p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.works-left button {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-align: left;
+}
+
+.works-left button:hover {
+  background: #166534;
+}
+
+.works-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 600px;
+  padding: 0 2rem;
+}
+
+.work-item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.work-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.work-icon {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.work-icon img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.work-item h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0a3d2c;
+  margin-bottom: 0.8rem;
+}
+
+.work-item p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .works-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  
+  .works-left, .works-right {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .works-left h1 {
+    font-size: 2rem;
+  }
+  
+  .works-right {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .work-item {
+    padding: 1.5rem;
+  }
+}
