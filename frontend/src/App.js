@@ -1,12 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nav from './components/nav';
-import Home from './components/home';
-import Features from './components/features';
-import Works from './components/works';
-import Page4 from './components/page4';
-import Pricing from './components/pricing';
-import Banner from './components/banner';
-import Footer from './components/footer';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import SideNav from './components/SideNav';
 import Login from './pages/Auth/Login';
 import Signup from './pages/Auth/Signup';
 import DashboardPage from './pages/DashboardPage';
@@ -16,7 +9,6 @@ import CheckDepositPage from'./pages/CheckDepositPage';
 import BillsPage from './pages/BillsPage';
 import ProfilePage from './pages/ProfilePage';
 import SettingsPage from './pages/SettingsPage';
-
 import './App.css';
 
 function App() {
@@ -24,36 +16,24 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/login" element={
-            <>
-              <Nav />
-              <Login />
-            </>
-          } />
-          <Route path="/signup" element={
-            <>
-              <Nav />
-              <Signup />
-            </>
-          } />
-          <Route path="/" element={
-            <>
-              <Nav />
-              <Home />
-              <Features />
-              <Works />
-              <Page4 />
-              <Banner />
-              <Pricing />
-              <Footer />
-              <DashboardPage />
-              <AccountsPage />
-              <CheckDepositPage />
-              <TransfersPage />
-              <BillsPage />
-              <ProfilePage />
-              <SettingsPage />
-            </>
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/*" element={
+            <div className="main-layout">
+              <SideNav />
+              <main className="main-content">
+                <Routes>
+                  <Route path="dashboard" element={<DashboardPage />} />
+                  <Route path="accounts" element={<AccountsPage />} />
+                  <Route path="transfers" element={<TransfersPage />} />
+                  <Route path="bills" element={<BillsPage />} />
+                  <Route path="check-deposit" element={<CheckDepositPage />} />
+                  <Route path="profile" element={<ProfilePage />} />
+                  <Route path="settings" element={<SettingsPage />} />
+                  <Route path="*" element={<Navigate to="/dashboard" replace />} />
+                </Routes>
+              </main>
+            </div>
           } />
         </Routes>
       </div>
