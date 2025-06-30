@@ -1,4 +1,38 @@
-# Getting Started with Create React App
+# Finovo Frontend
+
+A modern React-based banking app frontend with:
+
+## Features
+- **Dashboard:** Central hub after login, showing balances, recent transactions, AI-powered alerts, and quick actions.
+- **Accounts:** View details and transaction history for each account, with AI-powered categorization and filters.
+- **Transfers:** Move money between accounts or to external banks, with AI-suggested recipients and confirmation step.
+- **Bills:** Manage and pay bills, add new billers, and view payment history.
+- **Check Deposit:** Deposit checks remotely using your device's camera, with AI-assisted image checks and pre-fill.
+- **Profile:** View and update personal information, upload a profile picture, and manage communication preferences.
+- **Settings:** Manage security (password, biometrics, MFA, alerts, linked devices) and app preferences (theme, notifications).
+
+## Pages Overview
+- **Dashboard:** Quick snapshot of financial status, AI alerts, and shortcuts.
+- **Accounts:** Detailed account view, transaction history, filters, and statement download.
+- **Transfers:** Internal/external transfers, AI-suggested recipients, and confirmation.
+- **Bills:** Pay and manage billers, add new ones, and view payment history.
+- **Check Deposit:** Deposit checks with image upload and AI pre-fill.
+- **Profile:** Edit personal info, upload profile picture, manage preferences.
+- **Settings:** Security and app preferences, manage devices, and logout.
+
+## Quickstart
+
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+2. **Run the app**
+   ```bash
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
