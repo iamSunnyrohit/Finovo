@@ -3,7 +3,7 @@ import './pricing.css';
 
 const Pricing = () => {
     return(
-        <div className="pricing-container">
+        <div id="pricing" className="pricing-container">
             <h1>Only pay for What you use</h1>
             <div className="price-container">
                 <div className="price-top">

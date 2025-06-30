@@ -4,7 +4,7 @@ import img from '../assets/features.jpg';
 
 const Features = () => {
   return (
-    <div className="features-container">
+    <div id="features" className="features-container">
        <h1>Feel the power of finovo <br/> with powerful features</h1>
        <div className="features-list">
         <div className="feature-card-left">

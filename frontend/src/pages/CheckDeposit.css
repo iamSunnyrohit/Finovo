@@ -1,0 +1,132 @@
+.checkdeposit-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+.checkdeposit-header {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.checkdeposit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.checkdeposit-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.checkdeposit-select, .checkdeposit-input, .checkdeposit-file {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.checkdeposit-instructions {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-top: 0.2rem;
+}
+
+.checkdeposit-aierror {
+  color: #b91c1c;
+  background: #fee2e2;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.checkdeposit-submit-btn {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+  transition: background 0.2s;
+}
+.checkdeposit-submit-btn:hover {
+  background: #166534;
+}
+
+.checkdeposit-review {
+  text-align: center;
+}
+.checkdeposit-review-details {
+  margin: 1.2rem 0;
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.1rem;
+}
+.checkdeposit-review-images {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.checkdeposit-review-label {
+  font-size: 0.98rem;
+  color: #6b7280;
+  margin-bottom: 0.3rem;
+}
+.checkdeposit-review-img {
+  width: 160px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  margin-top: 0.2rem;
+}
+.checkdeposit-review-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+.checkdeposit-back-btn {
+  background: #e5e7eb;
+  color: #222;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+.checkdeposit-back-btn:hover {
+  background: #d1d5db;
+}
+.checkdeposit-confirm-btn {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+.checkdeposit-confirm-btn:hover {
+  background: #166534;
+}
+
+.checkdeposit-done {
+  text-align: center;
+  margin-top: 2rem;
+}

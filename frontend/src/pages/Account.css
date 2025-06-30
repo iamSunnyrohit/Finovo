@@ -1,0 +1,84 @@
+.account-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+.account-header {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.account-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.account-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.account-action-btn {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.account-action-btn:hover {
+  background: #166534;
+}
+
+.account-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.account-filter-input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.account-transactions {
+  margin-top: 1.5rem;
+}
+.account-transactions-table {
+  width: 100%;
+  background: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.account-transactions-table th,
+.account-transactions-table td {
+  padding: 0.6rem 1rem;
+  text-align: left;
+}
+.account-transactions-table th {
+  background: #f3f4f6;
+  font-weight: 600;
+}
+.account-amount-negative {
+  color: #b91c1c;
+  font-weight: 500;
+}
+.account-amount-positive {
+  color: #15803d;
+  font-weight: 500;
+}

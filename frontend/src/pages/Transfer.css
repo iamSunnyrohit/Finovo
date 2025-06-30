@@ -1,0 +1,131 @@
+.transfer-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+.transfer-header {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.transfer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.transfer-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.transfer-select, .transfer-input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.transfer-suggested {
+  margin: 1.2rem 0 0.5rem 0;
+}
+.transfer-suggested-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.transfer-suggested-list {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+.transfer-suggested-btn {
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 0.7rem 1.1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: background 0.2s, border 0.2s;
+}
+.transfer-suggested-btn:hover {
+  background: #e0f2fe;
+  border: 1px solid #38bdf8;
+}
+.transfer-suggested-name {
+  font-weight: 600;
+}
+.transfer-suggested-bank {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.transfer-submit-btn {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+  transition: background 0.2s;
+}
+.transfer-submit-btn:hover {
+  background: #166534;
+}
+
+.transfer-confirm {
+  text-align: center;
+}
+.transfer-confirm-details {
+  margin: 1.2rem 0;
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.1rem;
+}
+.transfer-confirm-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+.transfer-back-btn {
+  background: #e5e7eb;
+  color: #222;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+.transfer-back-btn:hover {
+  background: #d1d5db;
+}
+.transfer-confirm-btn {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+.transfer-confirm-btn:hover {
+  background: #166534;
+}

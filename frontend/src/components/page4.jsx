@@ -6,7 +6,7 @@ import img3 from '../assets/page4-3.jpg';
 
 const Page4 = () => {
   return (
-    <div className="page4-container">
+    <div id="how-it-works" className="page4-container">
         <h1>Boost your earnings with a savings <br/> account that yields</h1>
         <div className='page4-sub'>
         <div className="page4-left">

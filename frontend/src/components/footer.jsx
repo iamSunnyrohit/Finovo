@@ -12,25 +12,25 @@ const Footer = () => {
         <div className="footer-col">
           <h4>Resources</h4>
           <ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">What's New</a></li>
-            <li><a href="#">Service Status</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/whats-new">What's New</a></li>
+            <li><a href="/status">Service Status</a></li>
           </ul>
         </div>
         <div className="footer-col">
           <h4>Company</h4>
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Careers</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/careers">Careers</a></li>
           </ul>
         </div>
         <div className="footer-col">
           <h4>Use Cases</h4>
           <ul>
-            <li><a href="#">Transfers</a></li>
-            <li><a href="#">Payments</a></li>
-            <li><a href="#">Accounts</a></li>
-            <li><a href="#">Business</a></li>
+            <li><a href="/transfers">Transfers</a></li>
+            <li><a href="/payments">Payments</a></li>
+            <li><a href="/accounts">Accounts</a></li>
+            <li><a href="/business">Business</a></li>
           </ul>
         </div>
         <div className="footer-col newsletter-col">
@@ -41,10 +41,10 @@ const Footer = () => {
           </form>
           <h5>Our Socials</h5>
           <div className="footer-socials">
-            <a href="#" aria-label="Facebook" className="social-icon"><img src={fb} alt="Facebook" /></a>
-            <a href="#" aria-label="Instagram" className="social-icon"><img src={insta} alt="Instagram" /></a>
-            <a href="#" aria-label="LinkedIn" className="social-icon"><img src={linkedin} alt="LinkedIn" /></a>
-            <a href="#" aria-label="Twitter" className="social-icon"><img src={twitter} alt="Twitter" /></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="social-icon"><img src={fb} alt="Facebook" /></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="social-icon"><img src={insta} alt="Instagram" /></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-icon"><img src={linkedin} alt="LinkedIn" /></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="social-icon"><img src={twitter} alt="Twitter" /></a>
           </div>
         </div>
       </div>

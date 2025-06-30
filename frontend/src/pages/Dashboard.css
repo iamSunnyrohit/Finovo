@@ -1,0 +1,106 @@
+.dashboard-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+.dashboard-header {
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-alerts {
+  margin-bottom: 2rem;
+}
+
+.dashboard-alert {
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.dashboard-alert-danger {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+.dashboard-alert-warning {
+  background: #fef9c3;
+  color: #92400e;
+}
+.dashboard-alert-reminder {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.dashboard-balances {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 2rem;
+}
+.dashboard-balance-card {
+  flex: 1;
+  background: #f3f4f6;
+  border-radius: 10px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  text-align: center;
+}
+.dashboard-balance-type {
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+.dashboard-balance-amount {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.dashboard-transactions {
+  margin-bottom: 2rem;
+}
+.dashboard-transactions-table {
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  overflow: hidden;
+}
+.dashboard-transactions-table th,
+.dashboard-transactions-table td {
+  padding: 0.5rem 1rem;
+}
+.dashboard-transactions-table th {
+  background: #f3f4f6;
+  text-align: left;
+}
+.dashboard-amount-negative {
+  color: #b91c1c;
+  font-weight: 500;
+}
+.dashboard-amount-positive {
+  color: #15803d;
+  font-weight: 500;
+}
+
+.dashboard-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.dashboard-action-btn {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s;
+}
+.dashboard-action-btn.pay {
+  background: #0ea5e9;
+}
+.dashboard-action-btn.deposit {
+  background: #f59e42;
+}
